@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+    <head>
+    <meta charset="UTF-8">
+  <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+  <link rel='stylesheet' href='C:/Users/Женя/Desktop/FE/MySites/Реклама/bootstrap.min.css' type='text/css' media='all'>
+  C:\Users\Женя\Desktop\FE
+
+    <title>VEREST</title>
+    
+    <style>
+
+
+    </style>
+
+</head>
+
+
+    <nav>
+    <ul>
+        <li><a href="#"><span>О нас </span></a></li>
+        <li><a href="#"><span>Разместить рекламу</span></a></li>
+        <li><a href="#"><span>Продать сайт</span></a></li>
+        <li><a href="#"><span>Вакансии</span></a></li>
+        <li><a href="#"><span>Контакты</span></a></li>
+    </ul>
+    </nav>
+</div>
+
+
+
+<body>
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+  <meta charset="utf-8">
+  <title> Document</title>
+ 
+      </head>
+      <body>
+        
+      </body>
+      </html>
+    <style type="text/css">
+      
+      * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+ul {
+    list-style: none;
+}
+.slider {
+    width: 800px;
+    height: 400px;
+    border: 2px solid #333;
+    border-radius: 20px;
+    box-shadow: 0 0 30px 0 rgba(0,0,0,.5);
+    margin: 30px auto;
+    position: relative;
+    overflow: hidden;
+}
+.slider-item {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: opacity .5s ease;
+    width: 100%;
+    height: auto;
+}
+.slider-item img {
+    width: inherit;
+    height: inherit;
+} 
+.slider-item.active {
+    opacity: 1;
+}
+
+
+    </style>
+
+</head>
+<body>
+
+<script>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    
+
+</head>
+<body>
+    <div class="container">
+        <ul class="slider">
+            <li class="slider-item active">
+                <img src="img/1.png" alt="">
+            </li>
+            <li class="slider-item">
+                <img src="img/2.jpg" alt="">
+            </li>
+            <li class="slider-item">
+                <img src="img/3.gif" alt="">
+            </li>
+        </ul>
+
+       
+    </div>
+    <!--<button class="scroll-left"> PREV </button>-->
+    <!--<button class="scroll-right"> NEXT </button>-->
+
+    <script src="js/jquery-1.8.1.js"></script>
+
+    <script>
+        
+
+var slider = $('.slider');
+    slider.each(function(){
+        var slider = $(this);
+        var slider_items = slider.find('.slider-item');
+
+        function onSlide(method){
+    return function(){
+        var active =  slider_items.filter('.active'), index;
+        if (active[method]().is('.slider-item')) {
+            active.removeClass('active')
+                [method]()
+                .addClass('active');
+        } else {
+            method === 'next' ? index = 0 : index = slider_items.length-1;
+            slider_items.removeClass('active');
+            $(slider_items[index]).addClass('active');
+        }
+    }
+}
+
+var slideLeft = onSlide('prev'),
+    slideRigh = onSlide('next');
+
+    setInterval( slideLeft , 1500 );
+    });
+    
+
+
+
+
+        
+    </script>
+    <!-- $ -->
+    <!-- jQuery -->
+
+</body>
+</html>
+
+
+</script>
+
+
+ 
+
+
+
+</body>
+</html>
+
+
+<div class = 'gallery'>
+ 
+   <div class="col-sm-12 col-md-8 col-lg-4"> <div class = 'but'>
+   <a href=""><img src="https://cdn3.iconfinder.com/data/icons/streamline-icon-set-free-pack/48/Streamline-58-128.png" width="300" height="200"></a>
+   <h4> ЮРИСПРУДЕНЦИЯ </h4>
+  </div>
+  </div>
+
+  <div class="col-sm-12 col-md-4 col-lg-4">
+  <img src="https://github.com/Nataverhn/Nataverhn.github.io./blob/master/01.jpg?raw=true" width="300" height="200"> 
+   <button type="button" class="btn btn-default btn-lg btn-block" width="300" height="200">WOODSTOCK</button>
+   </div>
+
+   <div class="col-sm-12 col-md-8 col-lg-4"> <img src="http://dressup.ua/media/stores/user-3818/NV-Logo.jpg" width="300" height="200">
+    <button type="button" class="btn btn-default btn-lg btn-block">MySites</button>
+     </div>
+ 
+
+  </div>
+
+</div>
+   
+</body>
+</html>
